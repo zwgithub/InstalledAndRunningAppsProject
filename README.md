@@ -1,0 +1,3 @@
+# InstalledAndRunningAppsProject
+InstalledAndRunningAppsProject
+测试已经安装的app和正在运行的app。
