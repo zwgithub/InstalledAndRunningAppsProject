@@ -54,6 +54,7 @@
 		3816034B1CBA81F9000E968F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		381603571CBA824C000E968F /* RunningAppList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunningAppList.h; sourceTree = "<group>"; };
 		381603581CBA824C000E968F /* RunningAppList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunningAppList.m; sourceTree = "<group>"; };
+		38604A491CBB414B0020E723 /* InstalledAndRunningAppsProject-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstalledAndRunningAppsProject-PrefixHeader.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +116,7 @@
 				381603321CBA81F9000E968F /* LaunchScreen.storyboard */,
 				381603351CBA81F9000E968F /* Info.plist */,
 				381603241CBA81F9000E968F /* Supporting Files */,
+				38604A491CBB414B0020E723 /* InstalledAndRunningAppsProject-PrefixHeader.pch */,
 			);
 			path = InstalledAndRunningAppsProject;
 			sourceTree = "<group>";
@@ -417,6 +419,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstalledAndRunningAppsProject/InstalledAndRunningAppsProject-PrefixHeader.pch";
 				INFOPLIST_FILE = InstalledAndRunningAppsProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = caozhenwei.InstalledAndRunningAppsProject;
@@ -428,6 +432,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstalledAndRunningAppsProject/InstalledAndRunningAppsProject-PrefixHeader.pch";
 				INFOPLIST_FILE = InstalledAndRunningAppsProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = caozhenwei.InstalledAndRunningAppsProject;
@@ -502,6 +508,7 @@
 				381603501CBA81F9000E968F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		381603511CBA81F9000E968F /* Build configuration list for PBXNativeTarget "InstalledAndRunningAppsProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +517,7 @@
 				381603531CBA81F9000E968F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		381603541CBA81F9000E968F /* Build configuration list for PBXNativeTarget "InstalledAndRunningAppsProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +526,7 @@
 				381603561CBA81F9000E968F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
